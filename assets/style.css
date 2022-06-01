@@ -1,0 +1,42 @@
+container {
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+  'navbar'
+  'search'
+  'main'
+  'footer';
+  grid-template-rows: 6% 6% auto 6%;
+}
+
+@media (min-width: 992px) {
+  container {
+      grid-template-areas: 
+      'navbar search'
+      'navbar main'
+      'footer main'
+      ;
+      grid-template-columns: 1fr 10fr;
+      grid-template-rows: 10% auto 10%;
+  }
+}
+
+navbar {
+  grid-area: navbar;
+  background-color: #2f00ff; 
+  color: #ffff;
+}
+
+.search-container {
+  grid-area: search;
+  background-color: #cfccbf; 
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  background-color: #ffc300;
+  grid-area: footer
+}
