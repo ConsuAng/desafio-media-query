@@ -42,6 +42,47 @@ select {
 
 main {
   grid-area: main;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.8;
+  padding: 10px 0;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.image {
+  height: auto;
+  background-image: url("../img/ann_1-3.webp");
+  background-size: cover;
+  background-position: center center;
+  min-height: 200px;
+  width: 90%;
+}
+
+.product {
+  padding: 10px 0;
+}
+
+.card2 {
+  display: none;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  color: #ffff;
+  background-color: #ffc300;
 }
 
 footer {
