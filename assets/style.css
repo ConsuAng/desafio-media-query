@@ -24,8 +24,13 @@ navbar {
 }
 
 .search-container {
+  font-size: 14px;
   grid-area: search;
   background-color: #cfccbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 select {
