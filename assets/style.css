@@ -6,7 +6,7 @@ container {
   'search'
   'main'
   'footer';
-  grid-template-rows: 6% 6% auto 6%;
+  grid-template-rows: 8% 10% auto 8%;
 }
 
 @media (min-width: 992px) {
@@ -23,13 +23,24 @@ container {
 
 navbar {
   grid-area: navbar;
-  background-color: #2f00ff; 
+  background-color: #ffc300;
   color: #ffff;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .search-container {
   grid-area: search;
-  background-color: #cfccbf; 
+  background-color: #cfccbf;
+}
+
+select {
+  width: 80%;
+  border: none;
+  border-radius: 3px;
+  padding: 3px 0;
 }
 
 main {
@@ -38,5 +49,10 @@ main {
 
 footer {
   background-color: #ffc300;
-  grid-area: footer
+  color: #ffff;
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
