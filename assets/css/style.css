@@ -11,12 +11,17 @@ container {
 
 navbar {
   grid-area: navbar;
-  background-color: #ffc300;
+  background-color: #fe9388;
   color: #ffff;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+i {
+  font-size: 23px;
+  padding-right: 10px;
 }
 
 .menu {
@@ -26,7 +31,8 @@ navbar {
 .search-container {
   font-size: 14px;
   grid-area: search;
-  background-color: #cfccbf;
+  background-color: #f2b19e;
+  background-color: #f6c8bb;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +69,70 @@ main {
 
 .image {
   height: auto;
-  background-image: url("../img/ann_1-3.webp");
+  background-image: url("../img/lana-3.webp");
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+  width: 90%;
+}
+
+.image2 {
+  height: auto;
+  background-image: url("../img/lana-4.webp");
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+  width: 90%;
+}
+
+.image3{
+  height: auto;
+  background-image: url("../img/lana-2.webp");
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+  width: 90%;
+}
+
+.image4 {
+  height: auto;
+  background-image: url("../img/lana-1.jpeg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+  width: 90%;
+}
+
+.image5 {
+  height: auto;
+  background-image: url("../img/lana-5.webp");
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+  width: 90%;
+}
+
+.image6 {
+  height: auto;
+  background-image: url("../img/lana-6.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+  width: 90%;
+}
+
+.image7 {
+  height: auto;
+  background-image: url("../img/lana-7.jpeg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+  width: 90%;
+}
+
+.image8 {
+  height: auto;
+  background-image: url("../img/lana-8.jpeg");
   background-size: cover;
   background-position: center center;
   min-height: 300px;
@@ -71,7 +140,7 @@ main {
 }
 
 .product {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .card2 {
@@ -82,11 +151,18 @@ button {
   border: none;
   border-radius: 3px;
   color: #ffff;
-  background-color: #ffc300;
+  background-color: #7fa4a5;
+}
+
+.pagination a{
+  color: #ffff;
+  background-color: #7fa4a5;
+
 }
 
 footer {
-  background-color: #ffc300;
+  background-color: #fe9388;
+  
   color: #ffff;
   grid-area: footer;
   display: flex;
@@ -152,6 +228,34 @@ footer {
     min-height: 214px;
   }
 
+  .image2 {
+    min-height: 214px;
+  }
+
+  .image3 {
+    min-height: 214px;
+  }
+
+  .image4 {
+    min-height: 214px;
+  }
+
+  .image5 {
+    min-height: 214px;
+  }
+
+  .image6 {
+    min-height: 214px;
+  }
+
+  .image7 {
+    min-height: 214px;
+  }
+
+  .image8 {
+    min-height: 214px;
+  }
+
   .card2 {
     display: flex;
     width: 24%;
@@ -169,9 +273,13 @@ footer {
     opacity: 1;
   }
 
+  .product {
+    padding: 10px 0;
+  }
+
   .footer-text {
-    font-size: 11px;
+    font-size: 14px;
     text-align: center;
-    padding: 0 10px;
+    padding: 0 15px;
   }
 }
