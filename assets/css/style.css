@@ -66,7 +66,7 @@ main {
   background-image: url("../img/ann_1-3.webp");
   background-size: cover;
   background-position: center center;
-  min-height: 200px;
+  min-height: 300px;
   width: 90%;
 }
 
@@ -86,7 +86,7 @@ button {
 }
 
 footer {
-  background-color: #eed9f5;
+  background-color: #ffc300;
   color: #ffff;
   grid-area: footer;
   display: flex;
@@ -103,7 +103,7 @@ footer {
     'footer main'
     ;
     grid-template-columns: 2fr 11fr;
-    grid-template-rows: 10% auto 10%;
+    grid-template-rows: 8% auto 10%;
   }
 
   navbar {
@@ -135,8 +135,43 @@ footer {
     font-size: 14px;
   }
 
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    gap: 11px;
+  }
+
+  .card {
+    width: 24%;
+  }
+
+  .image {
+    min-height: 214px;
+  }
+
+  .card2 {
+    display: flex;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.8;
+    padding: 10px 0;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+  }
+
+  .card2:hover {
+    opacity: 1;
+  }
+
   .footer-text {
     font-size: 11px;
     text-align: center;
+    padding: 0 10px;
   }
 }
